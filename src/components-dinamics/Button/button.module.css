@@ -1,0 +1,27 @@
+.but{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 520px;
+    height: 48px;
+    background: #4763E4;
+    border: none;
+    border-radius: 12px;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+
+
+
+.but:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
