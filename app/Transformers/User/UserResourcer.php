@@ -3,7 +3,7 @@
 namespace App\Transformers\User;
 
 use Illuminate\Http\Resources\Json\JsonResource;
-use App\Services\ResponseService;
+use App\Service\ResponseService;
 use Illuminate\Http\Request;
 
 class UserResourcer extends JsonResource{
@@ -22,7 +22,7 @@ class UserResourcer extends JsonResource{
             'id' => $this->id,
             'name' => $this->name,
             'email' => $this->email,
-            'cpf' => '999.999.999-99'
+            'cpf' => '*************'
         ];
     }
 

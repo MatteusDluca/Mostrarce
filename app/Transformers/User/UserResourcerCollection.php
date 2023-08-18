@@ -5,7 +5,7 @@
 namespace App\Transformers\User;
 
 use Illuminate\Http\Resources\Json\JsonResource;
-use App\Services\ResponseService;
+use App\Service\ResponseService;
 use Illuminate\Http\Resources\Json\ResourceCollection;
 
 class UserResourcerCollection extends ResourceCollection{

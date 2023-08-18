@@ -1,7 +1,6 @@
 <?php
 
-namespace App\Services;
-
+namespace App\Service;
 
 Class ResponseService{
 
